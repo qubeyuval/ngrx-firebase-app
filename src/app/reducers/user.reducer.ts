@@ -25,5 +25,8 @@ export function userReducer(state: User = defaultUser, action: Action) {
 
         case userActions.LOGOUT:
             return { ...state, loading: true };
+
+        default:
+            return state;
     }
 }
