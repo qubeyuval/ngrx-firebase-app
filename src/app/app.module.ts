@@ -33,7 +33,7 @@ import { userReducer } from './reducers/user.reducer';
             user: userReducer
         }),
 
-        StoreDevtoolsModule.instrument({ maxAge: 25 })
+        StoreDevtoolsModule.instrument({ maxAge: 100 })
     ],
     providers: [],
     bootstrap: [AppComponent]
